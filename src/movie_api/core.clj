@@ -7,10 +7,7 @@
   (:require
     [ring.adapter.jetty :as ring]
     [ring.logger :as ring-logger]
-    [clojure.tools.logging :as log]
-    [taoensso.carmine :as car]
     [movie-api.persistence :as store]))
-
 
 ;redis
 (def redis-conn {:pool {} :spec (:redis config)})

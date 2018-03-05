@@ -1,7 +1,5 @@
 (ns movie-api.persistence
-  (:require [clojure.tools.logging :as log]
-            [taoensso.carmine :as car]))
-
+  (:require [taoensso.carmine :as car]))
 
 (defn get-r-test [conn, _]
   (or (car/wcar conn (car/get "test")) "empty!"))
