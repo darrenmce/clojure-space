@@ -1,4 +1,4 @@
-# movie-api
+# clojure-space (movie-api)
 
 A Clojure library designed to ... do nothing except let me take clojure out for a spin.
 
